@@ -1,0 +1,121 @@
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+th
+{
+    text-align: center;
+}
+ .restaurantinfo , .orderinfo , .paymenttable 
+{
+    padding:30px;
+}
+
+body
+{
+    background-color:oldlace;
+    background-image: url(img4.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color:black;
+}
+.userinfo
+{
+    padding: 10px;
+}
+#usertable
+{
+    border-collapse: collapse;
+    border-radius: 30px;
+    float:right;
+    border: 1px solid black;
+  
+}
+#usertable th
+{
+    background-color:dimgrey;
+    color:
+}
+#paytable th , #paytable td
+{
+    border: 0;
+    padding: 3px;
+    //border-bottom: 1px solid grey;
+}
+ tr:hover
+{
+    background-color: burlywood;
+}
+#paytable
+{
+    //border: 2px solid burlywood;
+    font-family: comic sans ms;
+    float:right;
+}
+//tr:nth-child(even) {background-color:burlywood;}
+#ordertable th , #ordetable td
+{
+    padding: 5px;
+}
+.mainhead
+{
+    width:40%;
+    margin: 0px auto;
+    border-radius: 10px;
+    font-family:sans;
+    background-color: ;
+}
+#ordertable , #paytable
+{
+    
+    float:right;
+    font-size: 19px;
+    font-family: sans;
+}
+#ohead
+{
+    font-size:21px;
+}
+#orderdetails
+{
+    padding:2px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+#payment
+{
+    padding:2px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: burlywood;
+}
+.confirmbutton
+{
+    padding-bottom: 20px;
+}
+button
+{
+    color: black;
+    background-color: burlywood;
+    
+}
+#payamt
+{
+    padding:1px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color:burlywood;
+}
+#h21
+{
+    font-size: 32px;
+}
+#h41
+{
+    font-size:19px;
+}

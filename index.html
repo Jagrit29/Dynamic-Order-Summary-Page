@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Food Bots</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="padding-top: 50px;">
+    <!--header-->
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Food Bots Assignment</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href=""><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-log-out"></span> Log-out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Header end-->
+    
+        <!--<div class="userinfo">
+            <div class="container text-center">
+                    <table id="usertable"  align="center" width="15%">
+                        <tr>
+                            <th colspan="2">User Details</th>
+                        </tr>
+                        <tr>
+                            <td>Id:- <b><span id="userid"></span></b></td>
+                        </tr>
+                        <tr>
+                            <td>Name:- <b><span id="username"></span></b></td>
+                        </tr>
+                    </table>  
+            </div>
+        </div>-->
+      <div class="mainbody">
+            <div class="container">
+                <div class="row" style="padding:25px;">
+                    <div class="text-center mainhead">
+                        <h2 id="h21">Mr <span id="name"></span> ,<br>
+                            <h4 id="h41">Please review and confirm your order.</h4>
+                        </h2>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="orderinfo">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-4"> 
+                <table border="0" align="center" id="ordertable" width="80%">
+                    <tr>
+                        <th colspan="5" id="ohead"><span id="orderdetails" style="background-color:burlywood"><i class="fa fa-shopping-cart"></i> Order Details </span></th>
+                    </tr>
+                    <tr>
+                        <th colspan="">Restaurant Details:</th>
+                        <td colspan="4"><span id="rname"></span> , <span id="rstreet"></span> , <span id="rcity"></span> , <span id="rstate"></span> , <span id="rzipcode"></span>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">Order-Id:- <b><span id="orderid"></span></b></td>
+                    </tr>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Item-Name</th>
+                        <th>Price Per Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </table>
+            </div>
+                    </div>
+    </div>
+    </div>
+    
+    <div class="paymenttable">
+        <div class="container text-center">
+            <div class="row">
+                <table id="paytable" border="0" width="30%">
+                    <tr>
+                        <th colspan="2"><span id="payment"><i class="fa fa-inr"></i> Payment</span></th>
+                    </tr>
+                    <tr>
+                        <th>No. of Items:</th>
+                        <td><span id="totalitems"></span></td>
+                    </tr>
+                    <tr>
+                        <th>Total Price</th>
+                        <td><span id="sumprice"></span></td>
+                    </tr>
+                    <tr>
+                        <th>Total Tax (0.025/INR)</th>
+                        <td><span id="totaltax"></span></td>
+                    </tr>
+                    <tr>
+                        <th>Amount to be paid:</th>
+                        <td id="payamt"><i class="fa fa-inr"> <span id="pay"></span></td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="confirm">
+        <div class="container text-center">
+            <div class="row">
+                <div class="confirmbutton">
+                    <button class="btn btn-danger">Confirm Order</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <!--Footer-->
+        <footer>
+            <div class="container">
+                <center>
+                    <p>Copyright &copy; Food Bots. All Rights Reserved  |  Contact Us: +91 90000 00000</p>	
+                </center>
+            </div>
+        </footer>
+        <!--Footer end-->
+    
+</body>
+    
+</html>
+              
